@@ -13,13 +13,13 @@
 #include <cmath>
 #include "color.h"
 
-extern const std::array<Color, 50> colors;
+extern const std::array<Color, 200> colors;
 
 std::vector<std::string> Split(std::string_view, char);
 
 int main()
 {
-    constexpr int K = 7;
+    constexpr int K = 11;
 
     std::println("Example input:");
     std::println("\tInput RGB: (255,255,255)");
